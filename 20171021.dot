@@ -1,0 +1,39 @@
+graph G {
+
+  // Header
+  "Open Cloud" -- { "App Plat" "Cloud vendors" "Data Plat" "Open in the enterprise" "Next-gen infrastructure" "Languages" }
+
+  "App Plat" -- { "Serverless" "Containers" "Platforms" }
+    "Serverless" -- { "Fn" "OpenWhisk" }
+      "Fn" -- "Oracle announcements" [style=dotted]
+    "Containers" -- { "CRI" "Kubernetes" }
+      "Kubernetes" -- { "Support in Docker" "Rancher" }
+    "Platforms" -- { "CF" "OpenShift" }
+      "OpenShift" -- "Kubernetes" [style=dotted]
+      "CF" -- { "Kubo" "rootless" "OSBAPI" }
+        "Kubo" -- "Kubernetes" [style=dotted]
+        "OSBAPI" -- { "CF" "OpenShift" } [style=dotted]
+
+  "Cloud vendors" -- { "Oracle announcements" "Multi-cloud" }  
+    "Oracle announcements" -- "Kubernetes" [style=dotted]
+    "Oracle announcements" -- "GSA response"
+
+  "Data Plat"
+
+  "Open in the enterprise" -- { "BNY Mellon" "Home Depot" "SAP" "GSA" "BBVA" "Federal Reserve" "Deutsche Bank" }
+    "Open in the enterprise" -- "GSA response" [style=dotted]
+
+  "Next-gen infrastructure" -- { "Linux" }
+    "Linux" -- "AppArmor in Debian"
+
+  "Languages" -- { "Java" "Node.js" "Python" }
+    "Java" -- { "OpenJ9" "Eclipse Foundation" "Spring Boot" }
+    "Node.js" -- { "Governance" }
+    "Python" -- { "Data Science vs. The Rest" }
+
+  // Links
+  "OSBAPI"[URL="https://goo.gl/px99bG"]
+  "BNY Mellon"[URL=""]
+  "CRI" [URL="https://goo.gl/sooM9e"]
+  "Home Depot" [URL="https://goo.gl/dngUDk"]
+}
