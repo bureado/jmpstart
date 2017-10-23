@@ -1,0 +1,51 @@
+Welcome to the <em>jmpstart</em>!
+
+With many events including DockerCon, Open Source Summit, JavaOne and Cloud Foundry Summit, the firehose has been supercharged with news. Read on for the latest on open cloud (and when you're done, take a quick read in the About section)
+
+[Diagram]
+
+The diagram above is an automated GraphViz representation of top-of-mind topics and some of the most salient news items from the last month (the source is available on [GitHub](https://goo.gl/pQwcgr)) Feel free to click on the diagram for a full-sized version, and note you can also click on the end nodes for convenient access to news.
+
+<h3>Application platform</h3>
+
+With the long-expected news of support for Kubernetes in Docker's community and commercial products (and, to a lesser extent, Oracle's hat-tip to Kubernetes at OpenWorld/JavaOne as well as Cloud Foundry's Kubo project) the conversation is now rapidly shifting from Kubernetes' relevance and future into the application and serverless platforms built on top. This brings us back to OpenShift, Cloud Foundry and the serverless players out there such as Fission, OpenWhisk, OpenFaaS, etc.
+
+I've seen a few positions coming through: 1) that the orchestrator conversation is irrelevant because serverless is where is at, and 2) that efforts in Docker and Cloud Foundry spaces to bring in Kubernetes are signalling differentiation (for example, kubo vs. Diego as [application vs. container runtime](https://redmonk.com/jgovernor/2017/10/11/some-thoughts-on-cloud-foundry-summit/))
+
+I think the former is hyperbole and the latter is an effort to rationalize the rise of Kubernetes, so don't get too hung up on either one. I tend to side with Krish on this one, and the [discussion](https://twitter.com/krishnan/status/920320609048936450) is a good read.
+
+The only thing that is clear to me is more tactical, and I [half-joked about it on Twitter](https://twitter.com/bureado/status/920871174376001537): with less attention on "enterprise distributions", entrenched tooling (such as Docker's) using Kubernetes and devloper's attention focused on platforms, kubectl is taking the backseat on how people understand and interact with Kubernetes.
+
+Finally, Open Service Broker API is one to watch. Josh's [CF Summit Europe presentation](https://www.youtube.com/watch?v=Gks937eWbIc) is a must although it seems every few weeks there's a new video on Service Catalog or Service Broker.
+
+The takeaways:
+
+* Formulate a Kubernetes strategy that assesses the platforms (incl. serverless) that can best leverage it rather than start from the orchestration standpoint
+* As soon as you are exposing an app to external customers and/or considering public cloud, lead with Open Service Broker API
+
+<h3>Data platform</h3>
+
+If open source and containers are changing the application platform at an unprecedented pace, the news in the data front are mindblowing. I grew up in an era where Postgres was seen as a way to reduce costs for Oracle shops and MySQL was what PHP developers used, and although Postgres had an edge, both products really sucked at things like clustering and high availability. Yet NoSQL, with Couch and then Mongo, showed us that the problem was less about elegant clusters and more about the constraints to DBAs and developers, democratizing many use cases.
+
+Up until a few years ago the biggest thing happening in my mind (besides open source-driven big data solutions) was that Postgres was coming back big time, beating NoSQL solutions at many use cases, making powerful technology easy to use and not compromising on performance, security and technical quality. So, at least to me, Postgres broke the mold even from a demographics standpoint.
+
+However, it's 
+
+<h2>Good reads</h2>
+
+<ul>
+* [Matt Asay on open source approaches at cloud vendors, case AWS](https://twitter.com/mjasay/status/920662308489125888)
+
+Oracle made a number of interesting announcements on the Java and broader open source spaces, and there was also significant comments on their GSA response
+
+</ul>
+
+Thanks for reading!
+
+<h2>About</h2>
+
+For the last two years, I've been curating open cloud news on my free time across key media outlets, analysts, social media and beyond, sharing it via the [firehose RSS](https://goo.gl/esDpWq) and speaking about this market intelligence effort at events like the Open Source Leadership Summit. This [jmpstart](https://goo.gl/pQwcgr) is an effort to continue communicating this to a broader audience.
+
+At its core, I attempt to describe the key trends in areas such as application and data platform, next-gen infrastructure, cultural transformation & open source in the enterprise and programming language evolution. While the firehose is updated almost daily, I try to maintain a monthly or quarterly basis for hindsight. My intel is notably lacking on areas like Big Data or IoT, which are important components to the open cloud, but where I'm running out of capacity for now.
+
+The jmpstart is inspired by many reports, from ThoughtWorks' Radar to the CNCF Landscape as well as great analysis over at RedMonk or The New Stack. I've been doing open source for over 15 years and I'm a strong proponent of open market intelligence. I therefore strive to maintain the sources, process and insights as open as possible. Feedback is always welcome! Find me on Twitter, GitHub and elsewhere: [@bureado](https://twitter.com/bureado).
