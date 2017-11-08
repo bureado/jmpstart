@@ -1,56 +1,59 @@
-Welcome to the <em>jmpstart</em>!
+<h1>Welcome to the <em>jmpstart</em>!</h1>
 
-With tons of Summer activity including DockerCon, Open Source Summit, JavaOne and Cloud Foundry Summit, the firehose has been supercharged with news.
+<p>With tons of Summer activity including DockerCon, Open Source Summit, JavaOne and Cloud Foundry Summit, the firehose has been supercharged with news.</p>
 
-[TBD Diagram]
+<a href="https://goo.gl/v2EcTN"><img src="https://goo.gl/Uq8d4g" style="width: 385px; height: 357px;" /></a>
 
-The <em>tentacloud</em> is a GraphViz-powered representation of top-of-mind topics and some of the most salient news items from the last month (the source is available on <a href="https://goo.gl/pQwcgr">GitHub</a> In the full-sized SVG version, you can conveniently click end nodes for some top news.
+<p>The <em>tentacloud</em> is a GraphViz-powered representation of top-of-mind topics and some of the most salient news items from the last month (the source is available on <a href="https://goo.gl/pQwcgr">GitHub</a>) In the <a href="https://goo.gl/v2EcTN">full-sized SVG version</a>, you can conveniently click end nodes for some top news.</p>
 
 <h2>Apps</h2>
 
-With the <a href="https://goo.gl/A5y78M">long expected</a> news of support for Kubernetes in Docker's community and commercial products (and, to a lesser extent, Oracle's hat-tip to Kubernetes at OpenWorld/JavaOne as well as Cloud Foundry's Kubo project) the conversation is now rapidly shifting from Kubernetes' relevance and <a href="https://goo.gl/N7i2Xn">future</a> into the application and serverless platforms built on top of it.
+<p>With the <a href="https://goo.gl/A5y78M">long expected</a> news of support for Kubernetes in Docker's community and commercial products (and, to a lesser extent, Oracle's hat-tip to Kubernetes at OpenWorld/JavaOne as well as Cloud Foundry's Kubo project) the conversation is now rapidly shifting from Kubernetes' relevance and <a href="https://goo.gl/N7i2Xn">future</a> into the application and serverless platforms built on top of it.</p>
 
-This brings us back to OpenShift, Cloud Foundry (yes, <a href="https://goo.gl/J2qnj8">really</a>) and the serverless players out there such as Fission, OpenWhisk, OpenFaaS and others.
+<p>This brings us back to OpenShift, Cloud Foundry (yes, <a href="https://goo.gl/J2qnj8">really</a>) and the serverless players out there such as Fission, OpenWhisk, OpenFaaS and others.</p>
 
-I've seen a few positions coming through: 1) that the orchestrator conversation is irrelevant because serverless is where is at, and 2) that efforts in Docker and Cloud Foundry spaces to bring in Kubernetes are signalling differentiation (for example, kubo vs. Diego as <a href="https://goo.gl/dngUDk">application vs. container runtime</a>)
+<p>I've seen a few positions coming through: 1) that the orchestrator conversation is irrelevant because serverless is where is at, and 2) that efforts in Docker and Cloud Foundry spaces to bring in Kubernetes are signalling differentiation (for example, kubo vs. Diego as <a href="https://goo.gl/dngUDk">application vs. container runtime</a>)</p>
 
-I think the former is hyperbole (with juxtaposed positions <a href="https://goo.gl/pNMWTW">1</a> and <a href="https://goo.gl/twnUww">2</a>) and the latter is an effort to rationalize the rise of Kubernetes, so don't get too hung up on either one. I tend to side with Krish on this one, and the <a href="https://goo.gl/TfLA4u">discussion</a> is a good read.
+<p>I think the former is hyperbole (with juxtaposed positions <a href="https://goo.gl/pNMWTW">1</a> and <a href="https://goo.gl/twnUww">2</a>) and the latter is an effort to rationalize the rise of Kubernetes, so don't get too hung up on either one. I tend to side with Krish on this one, and the <a href="https://goo.gl/TfLA4u">discussion</a> is a good read.</p>
 
-The only thing that is clear to me is more tactical (almost a <a href="https://goo.gl/9jV4uG">punchline</a>): with less attention on "enterprise distributions", entrenched tooling (such as Docker's) using Kubernetes and developer's attention focused on platforms, kubectl is taking the backseat on how people understand and interact with Kubernetes.
+<p>The only thing that is clear to me is more tactical (almost a <a href="https://goo.gl/9jV4uG">punchline</a>): with less attention on "enterprise distributions", entrenched tooling (such as Docker's) using Kubernetes and developer's attention focused on platforms, kubectl is taking the backseat on how people understand and interact with Kubernetes.</p>
 
-Finally, Open Service Broker API is one to watch. Josh's <a href="https://goo.gl/sAh1Aa">CF Summit Europe presentation</a> is a must, but see <a href="https://goo.gl/NsFcM7">this list</a> for a comprehensive compilation.
+<p>Finally, Open Service Broker API is one to watch. Josh's <a href="https://goo.gl/sAh1Aa">CF Summit Europe presentation</a> is a must, but see <a href="https://goo.gl/NsFcM7">this list</a> for a comprehensive compilation.</p>
 
-The takeaways:
+<p>The takeaways:</p>
 
 <ul>
 <li>When formulating your Kubernetes strategy, assess the platforms (incl. serverless) that can best leverage it rather than try to solve the <a href="https://goo.gl/XEhwma">orchestration problem</a></li>
 <li>As soon as you are exposing an app to external customers and/or looking at public cloud, consider bringing Open Service Broker API into your architecture</li>
 </ul>
 
-<h3>Data platform</h3>
+<h2>Data</h2>
 
-If open source and containers are changing the application platform at an unprecedented pace, the news in the data front are mindblowing. I grew up in an era where Postgres was seen as a way to reduce costs for Oracle shops and MySQL was what PHP developers used, and although Postgres had an edge, both products really sucked at things like clustering and high availability. Yet NoSQL in the form of Couch and then Mongo, showed us that the problem was less about elegant clusters and more about demolishing constraints and democratizing many use cases.
+<p>If open source and containers are changing the application platform at an unprecedented pace, the news in the data front are mindblowing. I grew up in an era where Postgres was seen as a way to reduce costs for Oracle shops and MySQL was what PHP developers used, and although Postgres had an edge, both products really sucked at things like clustering and high availability. Yet NoSQL in the form of Couch and then Mongo, showed us that the problem was less about elegant clusters and more about demolishing constraints and democratizing many use cases.</p>
 
-Up until a few years ago the biggest open source data thing happening in my mind (besides open source-driven big data solutions) was Postgres' comeback, beating NoSQL solutions at many <a href="https://goo.gl/qqoLnb">use cases</a>, making powerful technology easy to use and not compromising on performance, security and technical quality. Postgres broke the mold, dare I say even from a demographics standpoint, and cloud vendors seem to <a href="https://goo.gl/otGedp">like it</a>.
+<p>Up until a few years ago the biggest open source data thing happening in my mind (besides open source-driven big data solutions) was Postgres' comeback, beating NoSQL solutions at many <a href="https://goo.gl/qqoLnb">use cases</a>, making powerful technology easy to use and not compromising on performance, security and technical quality. Postgres broke the mold, dare I say even from a demographics standpoint, and cloud vendors seem to <a href="https://goo.gl/otGedp">like it</a>.</p>
 
-However, it's not a respectable month if there isn't at least one <a href="https://goo.gl/YQBPMb">hnews thread</a> where the discussion reflects what we can expect from data platform innovation in a cloud world. Other good reads highlighting innovation in this space are <a href="https://goo.gl/MmucDu">TiDB</a> and <a href="https://goo.gl/WhD5y4">YugaByte</a>.
+<p>However, it's not a respectable month if there isn't at least one <a href="https://goo.gl/YQBPMb">hnews thread</a> where the discussion reflects what we can expect from data platform innovation in a cloud world. Other good reads highlighting innovation in this space are <a href="https://goo.gl/MmucDu">TiDB</a> and <a href="https://goo.gl/WhD5y4">YugaByte</a>.</p>
 
-A wild guess: we will see Postgres increasingly everywhere, replacing and/or taking over use cases most people don't think of. It will coexist with a few other specialized, highly innovative open source databases in some scenarios such as tech startups, but what I think is new is the potential for some of these solutions to permeate shadow IT.
+<p>A wild guess: we will see Postgres increasingly everywhere, replacing and/or taking over use cases most people don't think of. It will coexist with a few other specialized, highly innovative open source databases in some scenarios such as tech startups, but what I think is new is the potential for some of these solutions to permeate shadow IT.</p>
 
 <h2>What's next?</h2>
 
-See below for some good reads in preparation for our next <em>jmpstart</em>. In the meantime, forward this to your friends and colleagues. I'd love your (and their) input. Thanks for reading!
+<p>See below for some good reads in preparation for our next <em>jmpstart</em>. In the meantime, forward this to your friends and colleagues. I'd love your (and their) input. Thanks for reading!</p>
 
 <ul>
   <li><a href="https://goo.gl/BuBPgg">Matt Asay on open source approaches at cloud vendors, case AWS</a></li>
   <li><a href="https://goo.gl/zD3dby">Cloud Foundry Power User The Home Depot Joins Foundation as Gold Member</a></li>
   <li><a href="https://goo.gl/ayxyKJ">The hnews thread on Oracle's GSA response</a></li>
+  <li><a href="https://goo.gl/iGk44t">Rackspace ends discount hosting for open source projects</a></li>
 </ul>
 
 <h2>About</h2>
 
-For the last two years, I've been curating open cloud news on my free time across key media outlets, analysts, social media and beyond, sharing it via the <a href="https://goo.gl/esDpWq">firehose RSS</a> and speaking about this market intelligence effort at events like the Open Source Leadership Summit. This <a href="https://goo.gl/pQwcgr">jmpstart</a> is an effort to continue communicating this to a broader audience.
+<p>For the last two years, I've been curating open cloud news on my free time across key media outlets, analysts, social media and beyond, sharing it via the <a href="https://goo.gl/esDpWq">firehose RSS</a> and speaking about this market intelligence effort at events like the Open Source Leadership Summit. This <a href="https://goo.gl/pQwcgr">jmpstart</a> is an effort to continue communicating this to a broader audience.</p>
 
-At its core, I attempt to describe the key trends in areas such as application and data platform, next-gen infrastructure, cultural transformation & open source in the enterprise and programming language evolution. While the firehose is updated almost daily, I try to maintain a monthly or quarterly basis for hindsight. My intel is notably lacking on areas like Big Data or IoT, which are important components to the open cloud, but where I'm running out of capacity for now.
+<p>At its core, I attempt to describe the key trends in areas such as application and data platform, next-gen infrastructure, cultural transformation & open source in the enterprise and programming language evolution. While the firehose is updated almost daily, I try to maintain a monthly or quarterly basis for hindsight. My intel is notably lacking on areas like Big Data or IoT, which are important components to the open cloud, but where I'm running out of capacity for now.</p>
 
-The <em>jmpstart</em> is inspired by many reports, from ThoughtWorks' Radar to the CNCF Landscape as well as great analysis over at RedMonk or The New Stack (full RSS here). I've been doing open source for over 15 years and I'm a strong proponent of open market intelligence. I therefore strive to maintain the sources, process and insights as open as possible. <a href="https://goo.gl/JwGqgm">Feedback</a> is always welcome! Find me on <a href="https://goo.gl/2q3ZGc">Twitter</a>, <a href="https://goo.gl/9BCqcj">GitHub</a> and elsewhere as @bureado.
+<p>The <em>jmpstart</em> is inspired by many reports, from ThoughtWorks' Radar to the CNCF Landscape as well as great analysis over at RedMonk or The New Stack (full RSS here). I've been doing open source for over 15 years and I'm a strong proponent of open market intelligence. I therefore strive to maintain the sources, process and insights as open as possible.</p>
+
+<p><a href="https://goo.gl/JwGqgm">Feedback</a> is always welcome! Find me on <a href="https://goo.gl/2q3ZGc">Twitter</a>, <a href="https://goo.gl/9BCqcj">GitHub</a> and elsewhere as @bureado.</p>
