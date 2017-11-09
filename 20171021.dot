@@ -1,4 +1,4 @@
-graph G {
+graph 20171021 {
 
   // Header
   "Open Cloud" -- { "App Plat" "Cloud vendors" "Data Plat" "Open in the enterprise" "Next-gen infrastructure" "Languages" }
@@ -33,7 +33,18 @@ graph G {
 
   // Links
   "OSBAPI"[URL="https://goo.gl/px99bG"]
-  "BNY Mellon"[URL=""]
   "CRI" [URL="https://goo.gl/sooM9e"]
   "Home Depot" [URL="https://goo.gl/dngUDk"]
+  "Governance" [URL="https://goo.gl/vXLUBR"]
+  "Eclipse Foundation" [URL="https://goo.gl/57PKpz"]
+  "OpenJ9" [URL="https://goo.gl/bnUrPo"]
+  "Spring Boot" [URL="https://goo.gl/Aixnxd"]
+  "Data Science vs. The Rest" [URL="https://goo.gl/9fB5Cx"]
+  "AppArmor in Debian" [URL="https://goo.gl/ymJUda"]
+  "rootless" [URL="https://goo.gl/nTZ8A9"]
+  "Oracle announcements" [URL="https://goo.gl/dGsoX9"]
+  "BNY Mellon" [URL="https://goo.gl/uHf7Uz"]
+  "Federal Reserve" [URL="https://goo.gl/4FEHLa"]
+  "BBVA" [URL="https://goo.gl/iJ2bny"]
+  "SAP" [URL="https://goo.gl/SbCXAN"]
 }
